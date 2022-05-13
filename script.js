@@ -9,6 +9,8 @@ const answer_color  = docment.getElementID('answer-color')
 const err           = docment.getElementID('err')
 const point         = docment.getElementID('point')
 
+generate()
+
 function generate() {
   let rgb10 = []
   let rgb16 = []
