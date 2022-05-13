@@ -33,7 +33,7 @@ function check() {
   let point = 0;
 
   for (let i = 0; i < 3; i++) {
-    input_rgb10[i] = parseInt(input_value.substring(2 * i + 1, 2 * i + 3), 16);
+    input_rgb10[i] = parseInt(input_value.substring(2 * i, 2 * i + 2), 16);
     input_rgb16[i] = parseInt(input_rgb10[i], 16);
     point += Math.abs(input_rgb10[i] - rgb10[i])
   }
