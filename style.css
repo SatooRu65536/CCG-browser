@@ -1,5 +1,23 @@
 #color-space {
   background-color: #393e46;
-  wideth: 10%;
+  width: 100%;
   height: 75px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #eb6100;
+  padding: 5px 10px;
+  line-height: 1.5;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 0.5rem;
 }
