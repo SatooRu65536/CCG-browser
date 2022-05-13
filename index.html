@@ -10,11 +10,16 @@
   <h2>カラーコード当てゲーム</h2>
   
   <div id="color-space"></div>
-  <input id="color-code" type="text" />
+  <input id="color-code" type="text" value="#" />
   <a onclick="check()">決定</a>
   <a onclick="generate()">生成</a>
-    
-  <p id="err">誤差: <span id="point"></span></p>
+  
+  <div id="results">
+    <p>誤差: <span id="res-err"></span></p>
+    <p>R: <span id="res-r"></span></p>
+    <p>G: <span id="res-g"></span></p>
+    <p>B: <span id="res-b"></span></p>
+  </div>
   
   <div id="canswer">
     <p id="canswer-code"></p>
@@ -22,7 +27,7 @@
   </div>
   
   <div id="answer">
-    <p id="answer-code></p>
+    <p id="answer-code"></p>
     <div id="answer-color"></div>
   </div>
     
