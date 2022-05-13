@@ -19,7 +19,7 @@ function generate() {
     rgb16[i] = rgb10.toString(16)
   }
   color_space.style.backgroundColor = ‘#${rgb16.join('')}’
-  color_space.value = ‘#${rgb16.join('')}’
+  color_space.innerText = ‘#${rgb16.join('')}’
 }
 
 function check() {
